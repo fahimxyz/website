@@ -19,19 +19,22 @@
 	<meta property="og:site_name" content="Fahim" />
 	<meta property="article:modified_time" content="2021-01-01T13:42:58+00:00" />
 	<meta name="twitter:card" content="summary" />
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RWG7B2C1P8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<link rel="icon" href="./favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" href="./favicon-192x192.png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="./favicon-180x180.png" />
+	<meta name="msapplication-TileImage" content="./favicon-270x270.png" />
 
-  gtag('config', 'G-RWG7B2C1P8');
-</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RWG7B2C1P8"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-RWG7B2C1P8');
+	</script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
-
 	<script type="text/javascript">
 		jQuery(function(){
 			jQuery(".typed").typed({
@@ -82,7 +85,7 @@
 		body {
 			-webkit-font-smoothing: antialiased;
 			font-family: "Inter", sans-serif;
-			font-size: 15px;
+			font-size: 14px;
 			color: #434A54;
 			line-height: 1;
 		}
@@ -280,7 +283,7 @@
 			display: inline-block;
 			list-style: none;
 			margin: 20px 0 0;
-    		padding-left: 10px;
+    		padding-left: 0px;
 		}
 
 		.main-navigation ul li {
@@ -298,11 +301,10 @@
 		.main-navigation ul li a:hover {
 			color: #0F4BF1;
 		}
-
-		.main-navigation, .menu-header-menu-container {
+		.main-navigation, 
+		.menu-header-menu-container {
 		    display: inline;
 		}
-
 		.site-content {
 			max-width: 1200px;
 			margin: 0 auto;
@@ -310,17 +312,14 @@
 			height: auto;
 			clear: both;
 		}
-
 		.content-area {
 			float: left;
 			width: 100%;
 			max-width: 900px;
 		}
-
 		.section {
 			margin-bottom: 50px;
 		}
-
 		.section-title {
 			font-size: 11px;
 			text-transform: uppercase;
@@ -329,43 +328,36 @@
 			font-weight: 600;
 			margin-bottom: 30px;
 		}
-
 		.about img {
 			margin-bottom: 25px;
 		}
-
 		.about h1 {
 			color: #F5F7FA;
 			font-weight: 400 !important;
 			max-width: 840px;
 			font-size: 24px;
 		}
-
 		.site-footer {
 		    background-color: #000;
 		    color: #656D78;
 		    padding: 50px 0;
 			clear: both;
 		}
-
 		.site-footer .site-info {
 			max-width: 1200px;
 			margin: 0 auto;
 			padding: 0 20px;
 		}
-
 		.site-footer .copyright {
 			margin-top: 40px;
 		}
 	</style>
-
 </head>
-
 <body class="home">
 	<div id="page" class="site">
 		<header id="masthead" class="site-header animated fadeInDown" role="banner">
 			<div class="site-branding">
-				<div class="slide-out-menu-toggle">
+				<!-- <div class="slide-out-menu-toggle">
 					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 21.864 21.864" xml:space="preserve">
 						<g>
 							<path style="fill:#fff;" d="M19.25,20.226c-0.256-2.426-0.202-4.775-0.966-7.026c-0.258-0.758,0.146-2.02-0.874-2.162
@@ -383,10 +375,12 @@
 								c-0.261,1.816,0.903,2.921,1.385,4.287C18.635,21.485,16.302,19.208,19.25,20.226z"/>
 						</g>
 					</svg>
-				</div>
+				</div> -->
 				<p class="site-title">
 					<a href="https://fahim.xyz/">
-						FAHIM
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="18" viewBox="0 0 70 18">
+						  <image width="70" height="18" xlink:href="data:img/png;base64,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"/>
+						</svg>
 					</a>
 				</p>
 			</div>
@@ -427,6 +421,5 @@
 			</div>
 		</footer>
 	</div>
-
 </body>
 </html>
